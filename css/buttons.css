@@ -23,7 +23,6 @@
     align-items: center;
 }
 
-
 .button--small{
     padding: .75rem 1rem;
 }
@@ -38,4 +37,6 @@
     background-color: transparent;
     color: var(--first-color-alt);
 }
+
+
 /*========== Button Dark/Light ==========*/
