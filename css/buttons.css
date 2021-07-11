@@ -1,3 +1,20 @@
+/*========== Button Dark/Light ==========*/
+.nav__btns{
+    display: flex;
+    align-items: center;
+}
+
+.change-theme{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover{
+    color: var(--first-color);
+}
+
 /*==================== BUTTONS ====================*/
 .button{
     display: inline-block;
@@ -47,19 +64,3 @@
 }
 
 
-/*========== Button Dark/Light ==========*/
-.nav__btns{
-    display: flex;
-    align-items: center;
-}
-
-.change-theme{
-    font-size: 1.25rem;
-    color: var(--title-color);
-    margin-right: var(--mb-1);
-    cursor: pointer;
-}
-
-.change-theme:hover{
-    color: var(--first-color);
-}

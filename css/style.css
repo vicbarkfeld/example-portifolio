@@ -1,10 +1,8 @@
 /*==================== Imports ====================*/
 @import url(variaveis.css);
-@import url(variaveis-dark-theme.css);
 @import url(layout.css);
 @import url(nav.css);
 @import url(buttons.css);
-@import url(scroll-bar.css);
 @import url(media-queries.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
@@ -23,7 +21,7 @@ body{
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-font);
+    background-color: var(--body-color);
     color: var(--text-color);
 }
 
@@ -74,6 +72,7 @@ img{
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
+
 /*==================== HOME ====================*/
 .home__container{
     gap: 1rem;
